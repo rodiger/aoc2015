@@ -1,0 +1,18 @@
+#!/usr/bin/env php
+<?php
+require_once __DIR__ . '/../vendor/autoload.php';
+ 
+use Symfony\Component\Console\Application;
+use Console\Commands\AocCommand;
+use Console\Commands\Day5Command;
+use Console\Commands\Day6Command;
+use Console\Commands\Day7Command;
+use Console\Commands\Day8Command;
+
+$app = new Application();
+$app->add(new AocCommand());
+$app->add(new Day5Command());
+$app->add(new Day6Command());
+$app->add(new Day7Command());
+$app->add(new Day8Command());
+$app->run();

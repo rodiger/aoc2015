@@ -1,0 +1,28 @@
+{
+    "name": "rodiger/aoc2015",
+    "version": "1.0.0",
+    "description": "Advent of Code 2015 Day 5-6-7-8",
+    "keywords": ["aoc", "symfony", "console"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rodiger Attila",
+            "email": "rodiger.attila@gmail.com",
+            "homepage": "http://github.com/rodiger",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "symfony/console": "^4.2"
+    },
+    "autoload": {
+         "psr-4": {
+             "Console\\": "src"
+         },
+         "classmap": ["src"]
+     }
+}
+
+
+
+
